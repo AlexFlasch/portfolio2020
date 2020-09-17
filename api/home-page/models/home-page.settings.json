@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "home_page_content": {
+      "type": "dynamiczone",
+      "components": [
+        "section-block.about-me",
+        "section-block.projects"
+      ]
+    }
+  }
+}

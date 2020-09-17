@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_block_projects",
+  "info": {
+    "name": "Projects",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "List_Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-molecules.project-entry"
+    },
+    "Component_Name": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "richtext"
+    }
+  }
+}

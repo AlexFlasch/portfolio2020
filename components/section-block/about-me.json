@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_section_block_about_mes",
+  "info": {
+    "name": "About Me",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Component_Name": {
+      "type": "string"
+    }
+  }
+}
