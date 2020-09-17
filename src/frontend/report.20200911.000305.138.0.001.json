@@ -1,0 +1,519 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200911.000305.138.0.001.json",
+    "dumpEventTime": "2020-09-11T00:03:05Z",
+    "dumpEventTimeStamp": "1599807785484",
+    "processId": 138,
+    "cwd": "/c/Users/alexa/src/portfolio2020/app/src/frontend",
+    "commandLine": [
+      "/usr/bin/node",
+      "/c/Users/alexa/src/portfolio2020/app/src/frontend/.cache/tmp-107-DM0Fe0j1wJYX",
+      "--inspect=9229"
+    ],
+    "nodejsVersion": "v13.7.0",
+    "glibcVersionRuntime": "2.23",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "13.7.0",
+      "v8": "7.9.317.25-node.28",
+      "uv": "1.34.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.7.0/node-v13.7.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.7.0/node-v13.7.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.4.0-19041-Microsoft",
+    "osVersion": "#1-Microsoft Fri Dec 06 14:06:00 PST 2019",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 414723900,
+        "nice": 0,
+        "sys": 239492800,
+        "idle": 6294278400,
+        "irq": 71993500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 418486800,
+        "nice": 0,
+        "sys": 82245600,
+        "idle": 6447762600,
+        "irq": 2624800
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 559954200,
+        "nice": 0,
+        "sys": 145436800,
+        "idle": 6243104000,
+        "irq": 3199500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 262520300,
+        "nice": 0,
+        "sys": 61583200,
+        "idle": 6624391500,
+        "irq": 1650600
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 390300900,
+        "nice": 0,
+        "sys": 129225600,
+        "idle": 6428968500,
+        "irq": 2883200
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 295892500,
+        "nice": 0,
+        "sys": 81407000,
+        "idle": 6571195600,
+        "irq": 1731400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 378782600,
+        "nice": 0,
+        "sys": 137506500,
+        "idle": 6432205900,
+        "irq": 2918500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+        "speed": 4201,
+        "user": 330723700,
+        "nice": 0,
+        "sys": 98824200,
+        "idle": 6518947100,
+        "irq": 1546400
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "eth0",
+        "internal": false,
+        "mac": "1c:1b:0d:9c:56:5b",
+        "address": "10.0.0.5",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "eth0",
+        "internal": false,
+        "mac": "1c:1b:0d:9c:56:5b",
+        "address": "fe80::35b4:e1b6:5811:9452",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "eth1",
+        "internal": false,
+        "mac": "00:15:5d:0d:72:33",
+        "address": "172.30.128.1",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "eth1",
+        "internal": false,
+        "mac": "00:15:5d:0d:72:33",
+        "address": "fe80::9dba:cf70:c2e5:11dd",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "eth2",
+        "internal": false,
+        "mac": "00:15:5d:5f:9d:4c",
+        "address": "172.26.208.1",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "eth2",
+        "internal": false,
+        "mac": "00:15:5d:5f:9d:4c",
+        "address": "fe80::d1f1:5667:3d97:83e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 36
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      }
+    ],
+    "host": "DESKTOP-U0K9RLA"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000bd0365",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000a9f86c",
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000c0758e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000c07909",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000db5e15",
+      "symbol": " [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000db64a6",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000dc4d19",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000dc5b55",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000dc862c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d8f204",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x00000000010dc52e",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x000000000145cc79",
+      "symbol": " [/usr/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2146119680,
+    "totalCommittedMemory": 2144498896,
+    "usedMemory": 2128039448,
+    "availableMemory": 53774008,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33328,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1066104,
+        "capacity": 1047424,
+        "used": 16456,
+        "available": 1030968
+      },
+      "old_space": {
+        "memorySize": 2051678208,
+        "committedMemory": 2051613464,
+        "capacity": 2037821624,
+        "used": 2037821624,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 3313664,
+        "committedMemory": 3017856,
+        "capacity": 2786944,
+        "used": 2786944,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 5246976,
+        "committedMemory": 5246608,
+        "capacity": 4157120,
+        "used": 4157120,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 82575360,
+        "committedMemory": 82575360,
+        "capacity": 82369704,
+        "used": 82369704,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 946176,
+        "committedMemory": 946176,
+        "capacity": 854560,
+        "used": 854560,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047424,
+        "used": 0,
+        "available": 1047424
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 8476.02,
+    "kernelCpuSeconds": 4448.19,
+    "cpuConsumptionPercent": 1.86029,
+    "maxRss": 3340165120,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 88575485
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 4660.75,
+    "kernelCpuSeconds": 1027.31,
+    "cpuConsumptionPercent": 0.818729,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "USER": "alex",
+    "ANDROID_SDK": "/c/Users/alexa/AppData/Local/Android/Sdk",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.5 npm/? node/v13.7.0 linux x64",
+    "npm_package_bugs_url": "https://github.com/gatsbyjs/gatsby/issues",
+    "npm_config_bin_links": "true",
+    "npm_node_execpath": "/usr/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "1",
+    "WT_PROFILE_ID": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "npm_package_dependencies_gatsby_plugin_react_helmet": "^3.3.10",
+    "npm_package_dependencies_gatsby": "^2.24.50",
+    "HOME": "/home/alex",
+    "OLDPWD": "/c/Users/alexa/src/portfolio2020",
+    "npm_config_init_license": "MIT",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_config_version_tag_prefix": "v",
+    "npm_package_scripts_serve": "gatsby serve",
+    "npm_package_keywords_0": "gatsby",
+    "WSL_DISTRO_NAME": "Ubuntu",
+    "npm_package_description": "A simple starter to get up and developing quickly with Gatsby",
+    "NVM_DIR": "/home/alex/.nvm",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_devDependencies_prettier": "2.1.0",
+    "LOGNAME": "alex",
+    "npm_package_scripts_clean": "gatsby clean",
+    "NAME": "DESKTOP-U0K9RLA",
+    "_": "/usr/bin/yarn",
+    "npm_package_private": "true",
+    "npm_package_scripts_develop": "gatsby develop",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "TERM": "xterm-256color",
+    "npm_package_scripts_start": "npm run develop",
+    "npm_config_ignore_scripts": "",
+    "npm_package_author_email": "mathews.kyle@gmail.com",
+    "PATH": "/tmp/yarn--1599113029564-0.5782546450544614:/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/.bin:/home/alex/.config/yarn/link/node_modules/.bin:/home/alex/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/home/alex/.cargo/bin:/home/alex/bin:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.2/bin:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.2/libnvvp:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/d/VulkanSDK/1.1.101.0/Bin:/c/Program Files (x86)/Razer Chroma SDK/bin:/c/Program Files/Razer Chroma SDK/bin:/c/Program Files/Oculus/Support/oculus-runtime:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Program Files/dotnet/:/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/Program Files/Git/cmd:/c/Users/alexa/AppData/Local/Microsoft/WindowsApps:/c/Users/alexa/AppData/Roaming/npm:/c/Program Files/Microsoft VS Code/bin:/c/Users/alexa/AppData/Local/hyper/app-2.0.0/resources/bin:/c/Users/alexa/AppData/Local/now-cli:/d/Program Files/heroku/bin:/c/Users/alexa/AppData/Local/Hasura/:/d/Program Files/PostgreSQL/10/bin:/c/Users/alexa/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Users/alexa/AppData/Roaming/nvm:/d/Program Files/nodejs:/d/HaxeToolkit/haxe/:/d/HaxeToolkit/neko:/c/Users/alexa/.windows-build-tools/python27/Scripts:/d/Program Files/erl10.3/bin:/d/Program Files (x86)/Elixir/bin:/c/Users/alexa/.mix/escripts:/c/Users/alexa/AppData/Local/Android/Sdk:/c/Program Files/NVIDIA Corporation/Nsight Compute 2019.5.0/:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/d/Program Files (x86)/Atmel/Flip 3.4.7/bin:/c/Users/alexa/AppData/Local/hyper/app-3.0.2/resources/bin:/d/Exercism:/c/Users/alexa/AppData/Local/GitHubDesktop/bin:/d/Program Files/CMake/bin:/d/Program Files/LLVM/bin:/snap/bin",
+    "NODE": "/usr/bin/node",
+    "npm_package_repository_type": "git",
+    "npm_package_name": "gatsby-starter-default",
+    "WT_SESSION": "6ccd02ba-5c43-4b70-97a4-b10a457666c9",
+    "gatsby_executing_command": "develop",
+    "LANG": "en_US.UTF-8",
+    "npm_package_dependencies_react_dom": "^16.12.0",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "npm_lifecycle_script": "gatsby develop",
+    "npm_package_scripts_test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/bin/bash",
+    "npm_lifecycle_event": "develop",
+    "npm_package_repository_url": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "npm_package_dependencies_gatsby_plugin_sharp": "^2.6.28",
+    "npm_package_version": "0.1.0",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"develop\"],\"original\":[\"run\",\"develop\"]}",
+    "npm_package_scripts_build": "gatsby build",
+    "npm_package_dependencies_gatsby_plugin_manifest": "^2.4.24",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "npm_package_dependencies_gatsby_transformer_sharp": "^2.5.13",
+    "npm_package_dependencies_gatsby_source_strapi": "^0.0.12",
+    "npm_package_dependencies_gatsby_plugin_offline": "^3.2.24",
+    "DOCKER_HOST": "tcp://localhost:2375",
+    "npm_package_dependencies_gatsby_image": "^2.4.16",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "npm_package_license": "0BSD",
+    "npm_package_dependencies_react_helmet": "^6.1.0",
+    "npm_config_strict_ssl": "true",
+    "GATSBY_LOGGER": "ink",
+    "gatsby_log_level": "normal",
+    "npm_package_scripts_format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "PWD": "/c/Users/alexa/src/portfolio2020/app/src/frontend",
+    "npm_execpath": "/usr/share/yarn/bin/yarn.js",
+    "NVM_CD_FLAGS": "",
+    "npm_package_dependencies_gatsby_source_filesystem": "^2.3.25",
+    "npm_package_author_name": "Kyle Mathews",
+    "npm_package_dependencies_prop_types": "^15.7.2",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "npm_config_python": "C:\\Users\\alexa\\.windows-build-tools\\python27",
+    "HOSTTYPE": "x86_64",
+    "NODE_ENV": "development",
+    "INIT_CWD": "/c/Users/alexa/src/portfolio2020/app/src/frontend",
+    "NVM_RC_VERSION": "",
+    "WSLENV": "WT_SESSION::WT_PROFILE_ID",
+    "npm_package_dependencies_react": "^16.12.0",
+    "VIPSHOME": "/target",
+    "GATSBY_BUILD_STAGE": "develop"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 8388608
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 7823,
+      "hard": 7823
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/lib/x86_64-linux-gnu/libnss_files.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/sharp.node",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libvips-cpp.so.42",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libvips.so.42",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libglib-2.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libgobject-2.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libpng16.so.16",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libz.so.1",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libtiff.so.5",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libjpeg.so.8",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libgthread-2.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libgmodule-2.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libexpat.so.1",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libgsf-1.so.114",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libxml2.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/liborc-0.4.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/liblcms2.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libgif.so.7",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/librsvg-2.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libgio-2.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libgdk_pixbuf-2.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libcairo.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libwebpmux.so.3",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libwebpdemux.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libwebp.so.7",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libexif.so.12",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libffi.so.7",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libcairo-gobject.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libpangocairo-1.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libpixman-1.so.0",
+    "/lib/x86_64-linux-gnu/librt.so.1",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libpangoft2-1.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libpango-1.0.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libfontconfig.so.1",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libharfbuzz.so.0",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libfreetype.so.6",
+    "/lib/x86_64-linux-gnu/libresolv.so.2",
+    "/c/Users/alexa/src/portfolio2020/app/src/frontend/node_modules/sharp/build/Release/../../vendor/lib/libfribidi.so.0"
+  ]
+}
